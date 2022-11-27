@@ -24,6 +24,14 @@ h1 {
   text-align: center;
 }
 
+.main-container > .website {
+    font-weight: 400px;
+    font-size: 10.24px;
+    line-height: 15.30px;
+    text-align: center;
+}
+
+
 .main-container > h2 {
   color: #f3bf99;
   font-weight: 400px;
@@ -47,4 +55,8 @@ h1 {
   margin-left: 116px;
   margin-top: 44px;
   border-radius: 10px 10px 0px 0px;
+}
+
+.email-btn {
+
 }
