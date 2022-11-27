@@ -73,23 +73,20 @@ button {
     padding: 9px 13px 9px 11px;
     gap: 8px;
     height: 34px;
-   
     border-radius: 6px;
 
 }
 
 .email-btn > button {
 background-color: gray/300;
-top: 468px;
-left: 151px;
+margin: 107px 167px 258px 35px;
 
 }
 
 .linkedin-btn > button {
     background-color: #5093E2;
     color: #FFFFFF;
-    left: 283px;
-    top: 468px;
+    margin: 107px 35px 258px 167px;
 }
 
 .about-interests-section > h2 {
