@@ -1,6 +1,6 @@
-import Info from "./Info";
-import About from "./About";
-import Interests from "./Interests";
+import React from "react";
+import Info from "./Header";
+import Main from "./Main";
 import Footer from "./Footer";
 import "./index.css";
 
@@ -9,8 +9,8 @@ function App() {
     <div className="app-container">
       <div className="card-container">
         <Info />
-        <About />
-        <Interests />
+        <Header />
+        <Main />
         <Footer />
       </div>
     </div>
