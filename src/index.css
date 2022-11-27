@@ -1,52 +1,50 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .app-container {
-    position: absolute;
-    width: 550px;
-    height: 868px;
-    left: 65px;
-    top: 53px;
-    background: #23252C;
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  background: #23252c;
 }
-
 
 h1 {
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30.26px;
-    text-align: center;
-    
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30.26px;
+  text-align: center;
 }
 
-h2 {
-    color: #F3BF99;
-    font-weight: 400px;
-    font-size: 12.8px;
-    line-height: 15.48px;
-    text-align: center;
+.main-container > h2 {
+  color: #f3bf99;
+  font-weight: 400px;
+  font-size: 12.8px;
+  line-height: 15.48px;
+  text-align: center;
 }
-
-
 
 .main-container {
-    position: absolute;
-    width: 317px;
-    height: 399px;
-    left: 116px;
-    top: 361px;
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background: #1a1b21;
 }
 
 .header-container > img {
-width: 317px;
-height: 317px;
-margin-left: 116px;
-margin-top: 44px;
+  width: 317px;
+  height: 317px;
+  margin-left: 116px;
+  margin-top: 44px;
+  border-radius: 10px 10px 0px 0px;
 }
