@@ -10,11 +10,12 @@ body {
 .app-container {
   position: absolute;
   width: 550px;
-  height: 868px;
+  height: 1000px;
   left: 65px;
   top: 53px;
   background: #23252c;
 }
+
 
 h1 {
   color: white;
@@ -24,8 +25,17 @@ h1 {
   text-align: center;
 }
 
+.main-container {
+    background: #1a1b21;
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
 .main-container > .website {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 10.24px;
     line-height: 15.30px;
     text-align: center;
@@ -34,20 +44,13 @@ h1 {
 
 .main-container > h2 {
   color: #f3bf99;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 12.8px;
   line-height: 15.48px;
   text-align: center;
 }
 
-.main-container {
-  position: absolute;
-  width: 317px;
-  height: 399px;
-  left: 116px;
-  top: 361px;
-  background: #1a1b21;
-}
+
 
 .header-container > img {
   width: 317px;
@@ -79,4 +82,16 @@ background-color: gray/300;
     gap: 8px;
     background-color: #5093E2;
     color: #FFFFFF;
+}
+
+.about-interests-section > h2 {
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+
+.about-interests-section > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15.36px;
 }
