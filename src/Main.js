@@ -22,9 +22,11 @@ export default function Main() {
           <button><img  src={linkedInIcon} />LinkedIn</button>
       </div>
 
-      <div className='About-section'>
+      <div className='about-interests-section'>
         <h2>About</h2>
         <p>Results-driven and passionate software developer with a demonstrated experience in building HTML, CSS and React JavaScript applications, always looking for new skills and technologies to learn</p>
+        <h3>Interests</h3>
+        <p>Baking expert. Mommy duties. Entertainment news. Hot girl walks. Social media.</p>
       </div>
     </div>
   )
