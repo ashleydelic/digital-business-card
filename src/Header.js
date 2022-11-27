@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className='header-container'>
         
-      <img src={myImage} width="317px" height="317px"/>
+      <img src={myImage}  />
 
     </div>
   )

@@ -16,13 +16,6 @@ body {
     background: #23252C;
 }
 
-.card-container {
-    position: absolute;
-    width: 317px;
-    height: 399px;
-    left: 116px;
-    top: 361px;
-}
 
 h1 {
     color: white;
@@ -43,6 +36,17 @@ h2 {
 
 
 
-.header-container {
+.main-container {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+}
 
+.header-container > img {
+width: 317px;
+height: 317px;
+margin-left: 116px;
+margin-top: 44px;
 }
