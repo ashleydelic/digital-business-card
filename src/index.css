@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.app-container {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background: #23252C;
+}
+
+.card-container {
+    
+}
