@@ -1,6 +1,6 @@
 import React from 'react';
-import emailIcon from './email-icon.png';
-import linkedInIcon from './linkedin-icon.png';
+import emailIcon from './Icon.png';
+import linkedInIcon from './linkedin.png';
 
 
 export default function Main() {
@@ -15,16 +15,16 @@ export default function Main() {
       </h3>
 
       <div className='email-btn'>
-      <button><img src={emailIcon} />Email</button>
+      <button><img className='email-img' src={emailIcon} />Email</button>
       </div>
 
       <div className='linkedin-btn'>
-          <button><img src={linkedInIcon} />LinkedIn</button>
+          <button><img  src={linkedInIcon} />LinkedIn</button>
       </div>
 
       <div className='About-section'>
         <h2>About</h2>
-        <p></p>
+        <p>Results-driven and passionate software developer with a demonstrated experience in building HTML, CSS and React JavaScript applications, always looking for new skills and technologies to learn</p>
       </div>
     </div>
   )

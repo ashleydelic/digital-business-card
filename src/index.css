@@ -57,6 +57,26 @@ h1 {
   border-radius: 10px 10px 0px 0px;
 }
 
-.email-btn {
+.email-btn > button {
+width: 115px;
+height: 34px;
+margin-top: 468px;
+margin-left: 151px;
+border-radius: 6px;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+background-color: gray/300;
 
+}
+
+.linkedin-btn > button {
+    width: 115px;
+    height: 34px;
+    margin-top: 468px;
+    margin-left: 283px;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    background-color: #5093E2;
+    color: #FFFFFF;
 }
