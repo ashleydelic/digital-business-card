@@ -11,8 +11,7 @@ body {
   position: absolute;
   width: 550px;
   height: 1000px;
-  left: 65px;
-  top: 53px;
+margin: 53px 681px 963px 65px;
   background: #23252c;
 }
 
@@ -30,8 +29,9 @@ h1 {
     position: absolute;
     width: 317px;
     height: 399px;
-  margin-top: 361px;
-  margin-left: 116px;
+    margin: 361px 117px 108px 116px;
+    
+ 
   }
 
 .main-container > .website {
