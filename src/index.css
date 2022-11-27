@@ -16,19 +16,20 @@ margin: 53px 681px 963px 65px;
 }
 
 
-h1 {
+.main-container > h1 {
   color: white;
   font-weight: 700;
   font-size: 25px;
   line-height: 30.26px;
   text-align: center;
+
 }
 
 .main-container {
     background: #1a1b21;
     position: absolute;
     width: 317px;
-    height: 399px;
+    height: 400px;
     margin: 361px 117px 108px 116px;
     
  
@@ -39,6 +40,7 @@ h1 {
     font-size: 10.24px;
     line-height: 15.30px;
     text-align: center;
+    color: white;
 }
 
 
@@ -74,23 +76,25 @@ button {
     gap: 8px;
     height: 34px;
     border-radius: 6px;
+   
 
 }
 
 .email-btn > button {
 background-color: gray/300;
-margin: 107px 167px 258px 35px;
+margin: 10px 167px 258px 35px;
 
 }
 
 .linkedin-btn > button {
     background-color: #5093E2;
     color: #FFFFFF;
-    margin: 107px 35px 258px 167px;
+    margin: 10px 35px 258px 167px;
 }
 
 .about-interests-section {
-    margin: 174px 34px 24px 36px;
+    margin: 70px 34px 24px 36px;
+    text-align: center;
 }
 
 .about-interests-section > h2 {
