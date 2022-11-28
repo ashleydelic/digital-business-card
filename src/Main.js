@@ -3,6 +3,7 @@ import emailIcon from './Icon.png';
 import linkedInIcon from './linkedin.png';
 
 
+
 export default function Main() {
   return (
     <div className='main-container'>
@@ -15,7 +16,7 @@ export default function Main() {
       </h3>
 
       <div className='email-btn'>
-      <form action='mailto:ashleycohzer96@gmail.com' method='get' encType='text/plain'></form><button><img className='email-img' src={emailIcon} />Email</button>
+      <button><img className='email-img' src={emailIcon} />Email</button>
       </div>
 
       <div className='linkedin-btn'>
