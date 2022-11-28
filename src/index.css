@@ -10,8 +10,8 @@ body {
 .app-container {
   position: absolute;
   width: 550px;
-  height: 1000px;
-  margin: 53px 681px 963px 65px;
+  height: 850px;
+  margin: 0px 681px 963px 400px;
   background: #23252c;
 }
 

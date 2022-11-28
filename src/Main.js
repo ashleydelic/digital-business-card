@@ -15,7 +15,7 @@ export default function Main() {
       </h3>
 
       <div className='email-btn'>
-      <button><img className='email-img' src={emailIcon} />Email</button>
+      <form action='mailto:ashleycohzer96@gmail.com' method='get' encType='text/plain'></form><button><img className='email-img' src={emailIcon} />Email</button>
       </div>
 
       <div className='linkedin-btn'>
