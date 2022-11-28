@@ -12,7 +12,7 @@ export default function Main() {
       <h2>Frontend Developer</h2>
 
       <h3 className='website'>
-      <a href='ashley.website'>ashley.website</a>
+      <a href='ashley.website'>Website</a>
       </h3>
 
       <div className='email-btn'>
