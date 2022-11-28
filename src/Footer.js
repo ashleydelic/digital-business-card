@@ -7,10 +7,10 @@ import githubIcon from './github-icon.png'
 export default function Footer() {
   return (
     <div className='footer-container'>
-        <img src={twitterIcon} className='footer-image' />
-        <img src={facebookIcon} className='footer-image' />
-        <img src={instagramIcon} className='footer-image' />
-        <img src={githubIcon} className='footer-image' />
+        <img src={twitterIcon} className='footer-twitter' />
+        <img src={facebookIcon} className='footer-facebook' />
+        <img src={instagramIcon} className='footer-instagram' />
+        <img src={githubIcon} className='footer-github' />
         
 
       

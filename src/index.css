@@ -11,10 +11,9 @@ body {
   position: absolute;
   width: 550px;
   height: 1000px;
-margin: 53px 681px 963px 65px;
+  margin: 53px 681px 963px 65px;
   background: #23252c;
 }
-
 
 .main-container > h1 {
   color: white;
@@ -22,27 +21,23 @@ margin: 53px 681px 963px 65px;
   font-size: 25px;
   line-height: 30.26px;
   text-align: center;
-
 }
 
 .main-container {
-    background: #1a1b21;
-    position: absolute;
-    width: 317px;
-    height: 400px;
-    margin: 361px 117px 108px 116px;
-    
- 
-  }
-
-.main-container > .website {
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 15.30px;
-    text-align: center;
-    color: white;
+  background: #1a1b21;
+  position: absolute;
+  width: 317px;
+  height: 400px;
+  margin: 361px 117px 108px 116px;
 }
 
+.main-container > .website {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.3px;
+  text-align: center;
+  color: white;
+}
 
 .main-container > h2 {
   color: #f3bf99;
@@ -53,7 +48,7 @@ margin: 53px 681px 963px 65px;
 }
 
 .header-container {
-    position: absolute;
+  position: absolute;
 }
 
 .header-container > img {
@@ -65,50 +60,78 @@ margin: 53px 681px 963px 65px;
 }
 
 button {
-    box-sizing: border-box;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 115px;
-    padding: 9px 13px 9px 11px;
-    gap: 8px;
-    height: 34px;
-    border-radius: 6px;
-   
-
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  height: 34px;
+  border-radius: 6px;
 }
 
 .email-btn > button {
-background-color: gray/300;
-margin: 10px 167px 258px 35px;
-
+  background-color: gray/300;
+  margin: 10px 167px 258px 35px;
 }
 
 .linkedin-btn > button {
-    background-color: #5093E2;
-    color: #FFFFFF;
-    margin: 10px 35px 258px 167px;
+  background-color: #5093e2;
+  color: #ffffff;
+  margin: 10px 35px 258px 167px;
 }
 
 .about-interests-section {
-    margin: 70px 34px 24px 36px;
-    text-align: center;
+  margin: 70px 34px 24px 36px;
+  text-align: center;
 }
 
 .about-interests-section > h2 {
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-color: white;
-
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
 }
 
 .about-interests-section > p {
-    font-weight: 400;
-    font-size: 10.24px;
-    line-height: 15.36px;
-    color: white;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  color: white;
 }
 
+.footer-container {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  margin: 760px 117px 44px 116px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-container > .footer-twitter {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin: 19px 219px 20px 73px;
+ 
+}
+
+.footer-container > .footer-facebook {
+  position: absolute;
+  margin: 19px 170px 20px 122px;
+  
+}
+
+.footer-container > .footer-instagram {
+  position: absolute;
+  margin: 19px 121px 20px 171px;
+}
+
+.footer-container > .footer-github {
+  position: absolute;
+  margin: 19px 72px 19px 219px;
+}
